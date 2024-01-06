@@ -1,0 +1,62 @@
+*,
+.nav-link,
+.list-group-item {
+}
+
+.bg-image {
+  background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqUg3eiodLRKVUqb29-Zc5qLljCnHM9VJqCf-2_bN8HFs7X_DM) no-repeat center center / cover;
+}
+
+.bg-clear {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a span,.but, h6{
+  font-size: 12px;
+}
+
+.img-user {
+  width: 50px;
+  height: 50px;
+}
+.card-img-top{
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: none;
+}
+
+.img-users {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: red;
+}
+
+.custom-form {
+  display: flex;
+  border: none;
+}
+
+.custom-form .form-control {
+  border: none;
+  margin-left: 50px;
+}
+
+
+
+.btn-outline-danger {
+  border: 1px solid #aaa;
+  color: #ccc;
+}
